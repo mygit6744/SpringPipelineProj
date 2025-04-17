@@ -13,7 +13,7 @@ public class FirstController {
 	@GetMapping("/") 
     public String getMessage()
     {
-        return "Welcome to Employee Management System";
+        return "Very Good Yugandhar!! This is your second Jenkin pipeline code";
     }
 	@GetMapping("/emps")
 	public List<Employee> getHerosList() {
